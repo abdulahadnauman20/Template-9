@@ -110,6 +110,7 @@ const Ourshop = () => {
 
   return (
     <>
+      <Header />
       <div className="bg-[url('/images/bg.png')] bg-cover bg-center flex justify-center items-center w-full h-[320px] md:h-[500px] lg:h-[600px]">
         <div className="text-center">
           <h1 className="text-[32px] md:text-[40px] lg:text-[48px] font-bold text-white">Our Shop</h1>
