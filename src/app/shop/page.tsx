@@ -5,7 +5,9 @@ import { CiSearch } from "react-icons/ci";
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
 import { FaStar } from "react-icons/fa6";
 import { CiStar } from "react-icons/ci";
-
+import Header from '@/component/Header';
+import Footer from '@/component/footer';
+import Bottom from '@/component/bottom';
 interface Data{
   id:number;
   img:string;
@@ -110,6 +112,7 @@ const Ourshop = () => {
 
   return (
     <>
+    <Header />
       <div className="bg-[url('/images/bg.png')] bg-cover bg-center flex justify-center items-center w-full h-[320px] md:h-[500px] lg:h-[600px]">
         <div className="text-center">
           <h1 className="text-[32px] md:text-[40px] lg:text-[48px] font-bold text-white">Our Shop</h1>
@@ -278,7 +281,10 @@ const Ourshop = () => {
           </div>
         </div>
       </div>
+      <Footer />
+      <Bottom />
     </>
+
   );
 };
 
